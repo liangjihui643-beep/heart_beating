@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Users/DELL/AppData/Local/Programs/Python/Python312/python.exe -m venv .venv)",
+      "Bash(.venv/Scripts/pip.exe install *)",
+      "Bash(/c/Users/DELL/AppData/Local/Programs/Python/Python312/python.exe -m venv /c/Users/DELL/Desktop/opencoding/beating_heart/.venv)"
+    ]
+  }
+}

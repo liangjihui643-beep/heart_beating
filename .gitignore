@@ -1,0 +1,30 @@
+# Python 虚拟环境
+.venv/
+venv/
+env/
+.env/
+
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 系统临时文件
+.DS_Store
+Thumbs.db
+# Python 缓存
+__pycache__/
+
+
+# IDE
+.vscode/
+.idea/
+
+# 数据采集临时文件
+*.csv
+# 如果你希望提交训练数据集，可以删除上面这一行
+
+# 模型训练输出（可选）
+*.h5
+# 如果希望提交 tflite 模型文件，则保留 gesture_classifier.tflite 并删除 *.tflite
