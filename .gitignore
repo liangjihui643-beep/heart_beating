@@ -3,7 +3,7 @@
 venv/
 env/
 .env/
-
+.venv_train
 # Python 编译缓存
 __pycache__/
 *.pyc
@@ -23,8 +23,12 @@ __pycache__/
 
 # 数据采集临时文件
 *.csv
+*.json
 # 如果你希望提交训练数据集，可以删除上面这一行
 
 # 模型训练输出（可选）
 *.h5
 # 如果希望提交 tflite 模型文件，则保留 gesture_classifier.tflite 并删除 *.tflite
+
+# 手势数据目录
+beating_heart/gesture_data/

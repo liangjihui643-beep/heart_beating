@@ -3,7 +3,21 @@
     "allow": [
       "Bash(/c/Users/DELL/AppData/Local/Programs/Python/Python312/python.exe -m venv .venv)",
       "Bash(.venv/Scripts/pip.exe install *)",
-      "Bash(/c/Users/DELL/AppData/Local/Programs/Python/Python312/python.exe -m venv /c/Users/DELL/Desktop/opencoding/beating_heart/.venv)"
+      "Bash(/c/Users/DELL/AppData/Local/Programs/Python/Python312/python.exe -m venv /c/Users/DELL/Desktop/opencoding/beating_heart/.venv)",
+      "Bash(/c/Users/DELL/Desktop/opencoding/beating_heart/.venv/Scripts/pip.exe install *)",
+      "Bash(/c/Users/DELL/Desktop/opencoding/beating_heart/.venv/Scripts/python.exe -c ' *)",
+      "Bash(/c/Users/DELL/Desktop/opencoding/beating_heart/.venv/Scripts/pip.exe uninstall *)",
+      "Bash(/c/Users/DELL/AppData/Local/Programs/Python/Python312/python.exe -m venv /c/Users/DELL/Desktop/opencoding/beating_heart/.venv_train)",
+      "Bash(/c/Users/DELL/Desktop/opencoding/beating_heart/.venv_train/Scripts/pip.exe install *)",
+      "Bash(/c/Users/DELL/Desktop/opencoding/beating_heart/.venv_train/Scripts/python.exe -c \"import tensorflow as tf; print\\('TensorFlow:', tf.__version__\\); print\\('OK'\\)\")",
+      "Bash(/c/Users/DELL/Desktop/opencoding/beating_heart/.venv_train/Scripts/python.exe -c \"import tensorflow as tf; print\\('TensorFlow:', tf.__version__\\)\")",
+      "Bash(/c/Users/DELL/Desktop/opencoding/beating_heart/.venv_train/Scripts/python.exe -c ' *)",
+      "Bash(c:/Users/DELL/Desktop/opencoding/beating_heart/.venv/Scripts/pip.exe list *)",
+      "Bash(c:/Users/DELL/Desktop/opencoding/beating_heart/.venv/Scripts/python.exe beating_heart/beating_heart.py)",
+      "Bash(c:/Users/DELL/Desktop/opencoding/beating_heart/.venv_train/Scripts/pip.exe list *)",
+      "Bash(c:/Users/DELL/Desktop/opencoding/.venv/Scripts/pip.exe list *)",
+      "Bash(c:/Users/DELL/Desktop/opencoding/beating_heart/.venv/Scripts/pip.exe install *)",
+      "Bash(c:/Users/DELL/Desktop/opencoding/beating_heart/.venv/Scripts/python.exe --version)"
     ]
   }
 }
