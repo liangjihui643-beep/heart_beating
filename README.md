@@ -10,13 +10,13 @@
 
 检测到单手比心手势（拇指与食指交叉形成心形）后，屏幕底部持续冒出跳动的彩色爱心粒子，顶部 1/4 区域滚动播放 3D 旋转文字。
 
-![单手比心效果](screenshots/20260504_125532_heart.png)
+![单手比心效果](beating_heart/screenshots/20260504_125532_heart.png)
 
 ### 拳头 — 格斗火焰气场
 
 检测到握拳手势后，手掌中心喷射多层火焰粒子（亮黄→暗红渐变），伴随火星飞溅、灰色烟雾上飘、红色气场光环脉冲，以及从手掌向外辐射的能量线条。
 
-![拳头火焰效果](screenshots/20260504_125537_fist.png)
+![拳头火焰效果](beating_heart/screenshots/20260504_125537_fist.png)
 
 ### 双手比心 — 全屏红色心跳
 
@@ -86,12 +86,13 @@
 
 ```bash
 git clone <仓库地址>
-cd beating_heart
+cd opencoding
 ```
 
 ### 2. 创建虚拟环境并安装依赖
 
 ```bash
+cd beating_heart
 python -m venv .venv
 # Windows
 .venv\Scripts\pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -173,14 +174,16 @@ python -m venv .venv_train
 ## 项目结构
 
 ```
-beating_heart/
-├── beating_heart.py            # 主程序（检测 + 特效）
-├── collect_data.py             # 训练数据采集脚本
-├── train_model.py              # 模型训练与 TFLite 导出
-├── requirements.txt            # 主程序依赖清单
-├── gesture_classifier.tflite   # 训练好的模型文件
-├── screenshots/                # 运行时截图
-└── README.md
+opencoding/
+├── README.md                     # 项目说明（本文件）
+├── .gitignore
+└── beating_heart/
+    ├── beating_heart.py          # 主程序（检测 + 特效）
+    ├── collect_data.py           # 训练数据采集脚本
+    ├── train_model.py            # 模型训练与 TFLite 导出
+    ├── requirements.txt          # 主程序依赖清单
+    ├── gesture_classifier.tflite # 训练好的模型文件
+    └── screenshots/              # 运行时截图
 ```
 
 > `gesture_data/`（训练数据）和虚拟环境目录已加入 `.gitignore`，不会提交到仓库。
